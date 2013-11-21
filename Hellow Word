@@ -1,0 +1,15 @@
+package com.vasim.hayat;
+import java.utill.Scanner;
+
+class HellowWord{
+ public static void main(String args[]){
+ 
+  Scanner scanner=new Scanner(System.in);
+  String name;
+   
+   System.out.println("Enter your name: ");
+   name=scanner.next();
+   
+   System.out.println("Hellow "+name);
+ }
+}
